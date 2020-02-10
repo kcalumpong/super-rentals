@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'ember-quickstart',
+    modulePrefix: 'super-rentals',
     environment,
     rootURL: '/',
     locationType: 'auto',
@@ -47,5 +47,7 @@ module.exports = function(environment) {
     // here you can enable a production-specific feature
   }
 
+  ENV.MAPBOX_ACCESS_TOKEN = 'pk.eyJ1Ijoia2NhbHVtcG9uZyIsImEiOiJjazZmdHJqM2ExemFzM3ByejJhZTFiZmd6In0.AIFOVocX1IeSz3hIxRSziA';
+  
   return ENV;
 };
